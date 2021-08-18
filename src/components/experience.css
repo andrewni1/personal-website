@@ -1,0 +1,56 @@
+.content-container {
+    flex-direction: row;
+    display: flex;
+    margin-top: 20px;
+}
+
+.experience-icon {
+    width: 70px;
+    height: 70px;
+    border: 10px solid white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 20%;
+    margin-right: 15px;
+}
+
+.experience-header {
+    flex-direction: column;
+    display: flex;
+    padding: 8px;
+}
+
+.experience-role {
+    color: #909090;
+    margin: 0;
+    font-size: 16px;
+}
+
+.experience-org {
+    color: #383838;
+    margin: 0;
+    font-size: 26px;
+}
+
+.experience-timeframe {
+    color: #5c5c5c;
+    margin: 0;
+    font-size: 16px;
+}
+
+.experience-description {
+    color: #5c5c5c;
+    font-weight: 500;
+    font-size: 18px;
+    width: 60%;
+}
+
+.experience-technologies {
+    color: #909090;
+    font-size: 16px;
+}
+
+.experience-github {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
