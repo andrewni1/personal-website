@@ -1,4 +1,40 @@
-.App {
-  margin-left: 30%;
-  margin-right: 30%;
+@media only screen and (max-width: 600px) {
+  .App {
+    margin-left: 5%;
+    margin-right: 5%;
+    min-width: fit-content;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .App {
+    margin-left: 10%;
+    margin-right: 10%;
+    min-width: fit-content;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .App {
+    margin-left: 20%;
+    margin-right: 20%;
+    min-width: fit-content;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .App {
+    margin-left: 25%;
+    margin-right: 25%;
+    min-width: fit-content;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .App {
+    margin-left: 35%;
+    margin-right: 35%;
+    min-width: fit-content;
+    min-width: fit-content;
+  }
 }
