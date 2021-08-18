@@ -13,7 +13,7 @@ function Landing() {
             <p className="desc">I'm an aspiring software engineer looking to specialize in full stack development. 
             I am currently open to internship opportunities, so feel free to contact me!</p>
             <div className="contact-icons">
-                <a target="_blank" rel="noreferrer"><img className="icon" src={Email} alt="email"/></a>
+                <a href="mailto:ni95@purdue.edu" target="_blank" rel="noreferrer"><img className="icon" src={Email} alt="email"/></a>
                 <a href="https://github.com/andrewni1" target="_blank" rel="noreferrer"><img className="icon" src={Github} alt="github"/></a>
                 <a href="https://www.linkedin.com/in/andrew-ni-7809b01a6/" target="_blank" rel="noreferrer"><img className="icon" src={LinkedIn} alt="linekdin"/></a>
             </div>

@@ -7,7 +7,7 @@ import './projects.css'
 
 function Projects() {
     return (
-        <div>
+        <div className="projects-container">
             <h1 className="header">Projects</h1>
             <div className="content-container">
                 <img className="projects-icon" src={Python} alt="python"/>
@@ -27,7 +27,7 @@ function Projects() {
                     </p>
                 </div>
             </div>
-            <div className="content-container">
+            <div className="content-two-container">
                 <img className="projects-icon" src={ProjPic} alt="proj-pic"/>
                 <div className="projects-header">
                     <h2 className="projects-org">Personal Website</h2>

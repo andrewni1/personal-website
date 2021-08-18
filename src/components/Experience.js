@@ -5,7 +5,7 @@ import './experience.css'
 
 function Experience() {
     return (
-        <div>
+        <div className="experience-container">
             <h1 className="header">Experience</h1>
             <div className="content-container">
                 <img className="experience-icon" src={HTF} alt="htf"/>
@@ -17,7 +17,7 @@ function Experience() {
                         - Developed a web application using JavaScript, EJS, and Materialize which allows employees at 
                         Jessie's Kids Foundation to request funding and board members to approve or disapprove requests
                         <br />
-                        - Created pages (login, request form, forgot password, etc.) through the utilization of EJS
+                        - Created interface for pages (login, request form, forgot password, etc.) through the utilization of EJS
                         <br />
                         - Utilized Materialize to create a responsive front-end framework
                         <br />

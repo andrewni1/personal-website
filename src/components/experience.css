@@ -1,3 +1,8 @@
+.experience-container {
+    border-bottom: 2px solid #909090;
+    padding-top: 10px;
+}
+
 .content-container {
     flex-direction: row;
     display: flex;
