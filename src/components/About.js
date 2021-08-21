@@ -13,7 +13,7 @@ function About() {
                         My area of interest in the CS field lies in full stack development. I am always looking to create products with a seemless interface on
                         the frontend while providing product functionality on the backend. 
                         <br /> <br />
-                        Some of my many interests include the stock market, blackjack, weight lifting, and poker.
+                        Some of my interests include the stock market, blackjack, weight lifting, and poker.
                     </p>
                 </div>
                 <img className="picture" src={MyPic} alt="pic"/>

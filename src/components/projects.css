@@ -26,7 +26,7 @@
 .projects-header {
     flex-direction: column;
     display: flex;
-    padding: 8px;
+    padding: 10px;
 }
 
 .projects-role {
@@ -69,4 +69,9 @@
 .projects-external-link {
     height: 30px;
     width: 30px;
+}
+
+.project-link {
+    color: #5c5c5c;
+    text-decoration: none;
 }
