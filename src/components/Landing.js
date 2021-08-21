@@ -2,6 +2,8 @@ import React from 'react'
 import Email from '../pictures/email.png'
 import Github from '../pictures/github.png'
 import LinkedIn from '../pictures/linkedin.png'
+import ResumeIcon from '../pictures/resumeIcon.png'
+import Resume from '../documents/Andrew_Ni_Resume.pdf'
 import './landing.css'
 
 function Landing() {
@@ -14,9 +16,10 @@ function Landing() {
             I am currently open to internship opportunities, so feel free to contact me! In the meantime, 
             you can learn more about me by scrolling through my website!</p>
             <div className="contact-icons">
-                <a href="mailto:ni95@purdue.edu" target="_blank" rel="noreferrer"><img className="icon" src={Email} alt="email"/></a>
-                <a href="https://github.com/andrewni1" target="_blank" rel="noreferrer"><img className="icon" src={Github} alt="github"/></a>
-                <a href="https://www.linkedin.com/in/andrew-ni-7809b01a6/" target="_blank" rel="noreferrer"><img className="icon" src={LinkedIn} alt="linekdin"/></a>
+                <a href="mailto:ni95@purdue.edu" target="_blank" rel="noreferrer" title="Email"><img className="icon" src={Email} alt="email"/></a>
+                <a href="https://github.com/andrewni1" target="_blank" rel="noreferrer" title="GitHub"><img className="icon" src={Github} alt="github"/></a>
+                <a href="https://www.linkedin.com/in/andrew-ni-7809b01a6/" target="_blank" rel="noreferrer" title="LinkedIn"><img className="icon" src={LinkedIn} alt="linekdin"/></a>
+                <a href={Resume} target="_blank" rel="noreferrer" title="Resume"><img className="icon" src={ResumeIcon} alt="resume"/></a>
             </div>
         </div>
     )

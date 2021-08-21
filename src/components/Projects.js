@@ -9,7 +9,7 @@ import './projects.css'
 function Projects() {
     return (
         <div className="projects-container">
-            <h1 className="header">Projects</h1>
+            <h1 className="header">Personal Projects</h1>
             <div className="content-container">
                 <img className="projects-icon" src={Fibro} alt="fibro"/>
                 <div className="projects-header">
@@ -20,13 +20,13 @@ function Projects() {
                     <p className="projects-description">
                         • Developed a full stack web application that allows authenticated users to record their product inventory with details such as product name, price, and group
                         <br />
-                        • Utilized Next.js to allow for enhanced user experience and application performance through the use of Next.js's server side rendering and static site generation
+                        • Utilized Next.js to allow for enhanced user experience and application performance with Next.js's server-side rendering and static site generation
                         <br />
-                        • Applied Firebase Authentication to allow users to create or sign in to an authenitcated account, providing privacy and security of information
+                        • Applied Firebase Authentication to allow users to create or sign into an authenticated account, providing privacy and security of information
                         <br />
-                        • Employed Firebase Firestore to create a database to handle and store user requests, allowing data to be displayed to authenticated users with each and every session
+                        • Employed Firebase Firestore to create a database to handle and store user requests, allowing data to be displayed to authenticated users with every session
                         <br />
-                        <p className="projects-technologies">JavaScript | Next.js | Firebase | Node.js</p>
+                        <p className="projects-technologies">Firebase | JavaScript | Next.js | Node.js</p>
                         <a href="https://github.com/andrewni1/fibro" target="_blank" rel="noreferrer"><img className="experience-github" src={Github} alt="github"/></a>
                         <a href="https://fibro.dev/" target="_blank" rel="noreferrer"><img className="experience-github" src={ExternalLink} alt="external-link"/></a>
                     </p>
@@ -35,7 +35,7 @@ function Projects() {
             <div className="content-two-container">
                 <img className="projects-icon" src={Python} alt="python"/>
                 <div className="projects-header">
-                    <h2 className="projects-org">Product Monitor</h2>
+                    <h2 className="projects-org">BestBuy Product Monitor</h2>
                     <h3 className="projects-link">https://github.com/andrewni1/product-monitor</h3>
                     <p className="projects-description">
                         • Developed an application with Python that monitors whether certain products are in stock or are restocking on BestBuy
@@ -45,7 +45,7 @@ function Projects() {
                         <br />
                         • Monitor alerts display a product's name, link, SKU, price, and an `Add to cart` button to allow users to add the product straight to cart by utilizing BestBuy's API endpoint
                         <br />
-                        • Any product can be monitored by inputing the link into the bestBuyLinks.txt file
+                        • Products can be monitored by inputting the product link into the bestBuyLinks.txt file
                         <br />
                         <p className="projects-technologies">Python | Discord.py</p>
                         <a href="https://github.com/andrewni1/product-monitor" target="_blank" rel="noreferrer"><img className="experience-github" src={Github} alt="github"/></a>
@@ -62,7 +62,7 @@ function Projects() {
                     <p className="projects-description">
                         • Developed a personal website with the use of React.js
                         <br />
-                        • Showcases my experience and the projects that I have worked on
+                        • Showcases my work experience and personal projects I have worked on
                         <br />
                         <p className="projects-technologies">JavaScript | React.js</p>
                         <a href="https://github.com/andrewni1/personal-website" target="_blank" rel="noreferrer"><img className="experience-github" src={Github} alt="github"/></a>
