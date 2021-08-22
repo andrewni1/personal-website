@@ -14,12 +14,12 @@ function Experience() {
                     <h2 className="experience-org">Purdue Hack The Future</h2>
                     <h3 className="experience-timeframe">Sept. 2020 - May 2021</h3>
                     <p className="experience-description">
-                        • Developed a web application using JavaScript, EJS, and Materialize to allow employees at 
-                        Jessie's Kids Foundation to request funding and board members to approve or disapprove incoming requests
+                        • Developed a web application using <b>Javascript</b>, <b>EJS</b>, and <b>Materialize</b> to allow employees at 
+                        <b> Jessie's Kids Foundation</b> to request funding and board members to approve or disapprove incoming requests
                         <br />
-                        • Implemented the structure of the web pages (login, request form, forgot password, etc.) by using EJS and JavaScript
+                        • Implemented the structure of the web pages (login, request form, forgot password, etc.) by using <b>EJS</b> and <b>Javascript</b>
                         <br />
-                        • Utilized Materialize to style and create a responsive front-end framework
+                        • Utilized <b>Materialize</b> to style and create a responsive front-end framework
                         <br />
                         <p className="experience-technologies">JavaScript | EJS | Materialize</p>
                         <a href="https://github.com/Hack-the-Future/jessies-kids-foundation" target="_blank" rel="noreferrer"><img className="experience-github" src={Github} alt="github"/></a>

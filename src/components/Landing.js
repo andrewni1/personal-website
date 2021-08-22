@@ -12,7 +12,7 @@ function Landing() {
             <h4 className="intro">Hi, my name is</h4>
             <h1 className="name">Andrew Ni.</h1>
             <h1 className="short-desc">Student at Purdue University.</h1>
-            <p className="desc">I'm an aspiring software engineer with a focus in full stack development. 
+            <p className="desc">I'm an aspiring <b>Software Engineer</b> with a concentration in <b>Full Stack Development</b>. 
             I am currently open to internship opportunities, so feel free to contact me! In the meantime, 
             you can learn more about me by scrolling through my website!</p>
             <div className="contact-icons">

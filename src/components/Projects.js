@@ -18,13 +18,13 @@ function Projects() {
                         <a className="project-link" href="https://fibro.dev/" target="_blank" rel="noreferrer">fibro.dev</a>
                     </h3>
                     <p className="projects-description">
-                        • Developed a full stack web application that allows authenticated users to record their product inventory with details such as product name, price, and group
+                        • Developed a <b>full stack web application</b> that allows authenticated users to record their product inventory with details such as product name, price, and group
                         <br />
-                        • Utilized Next.js to allow for enhanced user experience and application performance with Next.js's server-side rendering and static site generation
+                        • Utilized <b>Next.js</b> to allow for enhanced user experience and application performance with Next.js's server-side rendering and static site generation
                         <br />
-                        • Applied Firebase Authentication to allow users to create or sign into an authenticated account, providing privacy and security of information
+                        • Applied <b>Firebase Authentication</b> to allow users to create or sign into an authenticated account, providing privacy and security of information
                         <br />
-                        • Employed Firebase Firestore to create a database to handle and store user requests, allowing data to be displayed to authenticated users with every session
+                        • Employed <b>Firebase Firestore</b> to create a database to handle and store user requests, allowing data to be displayed to authenticated users with every session
                         <br />
                         <p className="projects-technologies">Firebase | JavaScript | Next.js | Node.js</p>
                         <a href="https://github.com/andrewni1/fibro" target="_blank" rel="noreferrer"><img className="experience-github" src={Github} alt="github"/></a>
@@ -38,12 +38,12 @@ function Projects() {
                     <h2 className="projects-org">BestBuy Product Monitor</h2>
                     <h3 className="projects-link">https://github.com/andrewni1/product-monitor</h3>
                     <p className="projects-description">
-                        • Developed an application with Python that monitors whether certain products are in stock or are restocking on BestBuy
-                        by scraping product details with the use of Beautiful Soup
+                        • Developed an application with <b>Python</b> that monitors whether certain products are in stock or are restocking on BestBuy
+                        by scraping product details with the use of <b>Beautiful Soup</b>
                         <br />
-                        • Utilized Discord.py to send alerts to users of in-stock/restocking products through Discord webhooks
+                        • Utilized <b>Discord.py</b> to send alerts to users of in-stock/restocking products through Discord webhooks
                         <br />
-                        • Monitor alerts display a product's name, link, SKU, price, and an `Add to cart` button to allow users to add the product straight to cart by utilizing BestBuy's API endpoint
+                        • Monitor alerts display a product's name, link, SKU, price, and an `Add to cart` button to allow users to add the product straight to cart by utilizing BestBuy's <b>API</b> endpoint
                         <br />
                         • Products can be monitored by inputting the product link into the bestBuyLinks.txt file
                         <br />
@@ -60,7 +60,7 @@ function Projects() {
                         <a className="project-link" href="https://andrewni.com/" target="_blank" rel="noreferrer">andrewni.com</a>
                     </h3>
                     <p className="projects-description">
-                        • Developed a personal website with the use of React.js
+                        • Developed a personal website with the use of <b>React.js</b>
                         <br />
                         • Showcases my work experience and personal projects I have worked on
                         <br />
