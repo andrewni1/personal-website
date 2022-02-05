@@ -18,7 +18,7 @@ function Projects() {
                         <a className="project-link" href="https://fibro.dev/" target="_blank" rel="noreferrer">fibro.dev</a>
                     </h3>
                     <p className="projects-description">
-                        • Developed a <b>full stack web application</b> that allows authenticated users to record their product inventory with details such as product name, price, and group
+                        • Developed a <b>full-stack web application</b> that allows authenticated users to record their product inventory with details such as product name, price, and group
                         <br />
                         • Utilized <b>Next.js</b> to allow for enhanced user experience and application performance with Next.js's server-side rendering and static site generation
                         <br />
