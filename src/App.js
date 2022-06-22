@@ -6,11 +6,15 @@ import Projects from './components/Projects';
 
 function App() {
   return (
-    <div className="App">
-      <Landing />
-      <About />
-      <Experience />
-      <Projects />
+    <div>
+      <div className="landing-page">
+        <Landing />
+      </div>
+      <div className="App">
+        <About />
+        <Experience />
+        <Projects />
+      </div>
     </div>
   );
 }

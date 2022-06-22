@@ -15,7 +15,7 @@ function Experience() {
                     <h2 className="experience-org">Estack</h2>
                     <h3 className="experience-timeframe">Aug. 2021 - Nov. 2021</h3>
                     <p className="experience-description">
-                        • Developed a full-stack real estate listing web application with the use of <b>React.js</b>, <b>Node.js</b>, and <b>MySQL</b>
+                        • Developed a <b>full-stack</b> real estate listing web application with the use of <b>React.js</b>, <b>Node.js</b>, and <b>MySQL</b>
                         <br />
                         • Conceptualized and developed <b>front-end</b> website architecture
                         <br />
@@ -23,7 +23,7 @@ function Experience() {
                         <br />
                         • Employed <b>MySQL</b> as a database to store user information
                         <br />
-                        <p className="experience-technologies">JavaScript | MySQL | Node.js | React.js</p>
+                        <p className="experience-technologies">MySQL | Node.js | React.js</p>
                         <a href="https://github.com/Estack-industries/estack-app" target="_blank" rel="noreferrer"><img className="experience-github" src={Github} alt="github"/></a>
                     </p>
                 </div>
@@ -35,10 +35,10 @@ function Experience() {
                     <h2 className="experience-org">Purdue Hack The Future</h2>
                     <h3 className="experience-timeframe">Sept. 2020 - May 2021</h3>
                     <p className="experience-description">
-                        • Developed a full-stack web application using <b>Javascript</b>, <b>EJS</b>, and <b>Materialize</b> to allow employees at 
-                        <b> Jessie's Kids Foundation</b> to request funding and board members to approve or disapprove incoming requests
+                        • Developed a <b>full-stack web application</b> utilizing <b>Javascript</b>, <b>EJS</b>, and <b>Materialize</b> to allow employees at 
+                        <b> Jessie's Kids Foundation</b> to request funding and for board members to approve or disapprove any incoming requests
                         <br />
-                        • Implemented the front-end architecture of the web pages (login, request form, forgot password, etc.) by utilizing <b>EJS</b> and <b>JavaScript</b>
+                        • Implemented the <b>front-end</b> architecture of the web pages (login, request form, forgot password, etc.) by utilizing <b>EJS</b> and <b>JavaScript</b>
                         <br />
                         • Leveraged <b>Materialize</b> to style the web pages (login, request form, etc.) and to create a seamless and responsive front-end framework
                         <br />

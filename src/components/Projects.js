@@ -26,7 +26,7 @@ function Projects() {
                         <br />
                         • Employed <b>Firebase Firestore</b> to create a database to handle and store user requests, allowing data to be displayed to authenticated users with every session
                         <br />
-                        <p className="projects-technologies">Firebase | JavaScript | Next.js | Node.js</p>
+                        <p className="projects-technologies">Firebase | Next.js | Node.js</p>
                         <a href="https://github.com/andrewni1/fibro" target="_blank" rel="noreferrer"><img className="experience-github" src={Github} alt="github"/></a>
                         <a href="https://fibro.dev/" target="_blank" rel="noreferrer"><img className="experience-github" src={ExternalLink} alt="external-link"/></a>
                     </p>
@@ -36,7 +36,9 @@ function Projects() {
                 <img className="projects-icon" src={Python} alt="python"/>
                 <div className="projects-header">
                     <h2 className="projects-org">BestBuy Product Monitor</h2>
-                    <h3 className="projects-link">https://github.com/andrewni1/product-monitor</h3>
+                    <h3 className="projects-link">
+                        <a className="project-link" href="https://github.com/andrewni1/product-monitor" target="_blank" rel="noreferrer">https://github.com/andrewni1/product-monitor</a>
+                        </h3>
                     <p className="projects-description">
                         • Developed an application with <b>Python</b> that monitors whether certain products are in stock or are restocking on BestBuy
                         by scraping product details with the use of <b>Beautiful Soup</b>
@@ -64,7 +66,7 @@ function Projects() {
                         <br />
                         • Showcases my work experience and personal projects I have worked on
                         <br />
-                        <p className="projects-technologies">JavaScript | React.js</p>
+                        <p className="projects-technologies">React.js</p>
                         <a href="https://github.com/andrewni1/personal-website" target="_blank" rel="noreferrer"><img className="experience-github" src={Github} alt="github"/></a>
                         <a href="https://andrewni.com/" target="_blank" rel="noreferrer"><img className="experience-github" src={ExternalLink} alt="external-link"/></a>
                     </p>
