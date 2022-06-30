@@ -1,7 +1,8 @@
 import React from 'react'
+import BestBuy from '../pictures/bestbuy.png'
 import Github from '../pictures/github.png'
 import Fibro from '../pictures/fibro.png'
-import Python from '../pictures/python.png'
+import Port from '../pictures/port.png'
 import ProjPic from '../pictures/projPic.png'
 import ExternalLink from '../pictures/externalLink.png'
 import './projects.css'
@@ -11,6 +12,28 @@ function Projects() {
         <div className="projects-container">
             <h1 className="header">Personal Projects</h1>
             <div className="content-container">
+                <img className="projects-icon" src={Port} alt="port"/>
+                <div className="projects-header">
+                    <h2 className="projects-org">Port</h2>
+                    <h3 className="projects-link">
+                        <a className="project-link" href="https://fibro.dev/" target="_blank" rel="noreferrer">XXX</a>
+                    </h3>
+                    <p className="projects-description">
+                        • Developed a <b>web application</b> that allows a user to visualize an ethereum-based wallet's total ERC-20 token and NFT net worth
+                        <br />
+                        • Employed <b>Ethers.js</b> to enable Metamask wallet connection and retrieval of a wallet's ethereum balance
+                        <br />
+                        • Fetched current ethereum price and a wallet's NFT data (assets owned, collections owned, price) by utilizing Coingecko and Opensea <b>API calls</b> with <b>Axios</b>
+                        <br />
+                        • Utilized <b>React.js</b> as the front-end framework of the application for enhanced performance and flexibility
+                        <br />
+                        <p className="projects-technologies">Axios | Ethers.js | React.js</p>
+                        <a href="https://github.com/andrewni1/port" target="_blank" rel="noreferrer"><img className="experience-github" src={Github} alt="github"/></a>
+                        <a href="https://fibro.dev/" target="_blank" rel="noreferrer"><img className="experience-github" src={ExternalLink} alt="external-link"/></a>
+                    </p>
+                </div>
+            </div>
+            <div className="content-two-container">
                 <img className="projects-icon" src={Fibro} alt="fibro"/>
                 <div className="projects-header">
                     <h2 className="projects-org">Fibro</h2>
@@ -33,7 +56,7 @@ function Projects() {
                 </div>
             </div>
             <div className="content-two-container">
-                <img className="projects-icon" src={Python} alt="python"/>
+                <img className="projects-icon" src={BestBuy} alt="bestbuy"/>
                 <div className="projects-header">
                     <h2 className="projects-org">BestBuy Product Monitor</h2>
                     <h3 className="projects-link">

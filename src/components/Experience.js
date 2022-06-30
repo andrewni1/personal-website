@@ -11,7 +11,7 @@ function Experience() {
             <div className="content-container">
                 <img className="experience-icon" src={Estack} alt="estack"/>
                 <div className="experience-header">
-                    <h3 className="experience-role">Full Stack Developer</h3>
+                    <h3 className="experience-role">Full-Stack Developer</h3>
                     <h2 className="experience-org">Estack</h2>
                     <h3 className="experience-timeframe">Aug. 2021 - Nov. 2021</h3>
                     <p className="experience-description">
@@ -31,7 +31,7 @@ function Experience() {
             <div className="content-container">
                 <img className="experience-icon" src={HTF} alt="htf"/>
                 <div className="experience-header">
-                    <h3 className="experience-role">Frontend Developer</h3>
+                    <h3 className="experience-role">Front-end Developer</h3>
                     <h2 className="experience-org">Purdue Hack The Future</h2>
                     <h3 className="experience-timeframe">Sept. 2020 - May 2021</h3>
                     <p className="experience-description">
