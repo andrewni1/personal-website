@@ -21,7 +21,7 @@ function Projects() {
                     <p className="projects-description">
                         • Developed a <b>web application</b> that allows a user to visualize an ethereum-based wallet's total ERC-20 token and NFT net worth
                         <br />
-                        • Employed <b>Ethers.js</b> to enable Metamask wallet connection and retrieval of a wallet's ethereum balance
+                        • Implemented <b>Ethers.js</b> to enable Metamask wallet connection and retrieval of a wallet's ethereum balance
                         <br />
                         • Fetched current ethereum price and a wallet's NFT data (assets owned, collections owned, price) by utilizing Coingecko and Opensea <b>API calls</b> with <b>Axios</b>
                         <br />
