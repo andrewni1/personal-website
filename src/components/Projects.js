@@ -16,7 +16,7 @@ function Projects() {
                 <div className="projects-header">
                     <h2 className="projects-org">Port</h2>
                     <h3 className="projects-link">
-                        <a className="project-link" href="https://fibro.dev/" target="_blank" rel="noreferrer">XXX</a>
+                        <a className="project-link" href="https://port-andrewni.vercel.app/" target="_blank" rel="noreferrer">port-andrewni.vercel.app</a>
                     </h3>
                     <p className="projects-description">
                         • Developed a <b>web application</b> that allows a user to visualize an ethereum-based wallet's total ERC-20 token and NFT net worth
@@ -29,7 +29,7 @@ function Projects() {
                         <br />
                         <p className="projects-technologies">Axios | Ethers.js | React.js</p>
                         <a href="https://github.com/andrewni1/port" target="_blank" rel="noreferrer"><img className="experience-github" src={Github} alt="github"/></a>
-                        <a href="https://fibro.dev/" target="_blank" rel="noreferrer"><img className="experience-github" src={ExternalLink} alt="external-link"/></a>
+                        <a href="https://port-andrewni.vercel.app/" target="_blank" rel="noreferrer"><img className="experience-github" src={ExternalLink} alt="external-link"/></a>
                     </p>
                 </div>
             </div>
