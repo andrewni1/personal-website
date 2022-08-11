@@ -17,7 +17,7 @@ function Landing() {
                 <div className="contact-icons">
                     <a href="mailto:ni95@purdue.edu" target="_blank" rel="noreferrer" title="Email"><img className="icon" src={Email} alt="email"/></a>
                     <a href="https://github.com/andrewni1" target="_blank" rel="noreferrer" title="GitHub"><img className="icon" src={Github} alt="github"/></a>
-                    <a href="https://www.linkedin.com/in/andrew-ni-7809b01a6/" target="_blank" rel="noreferrer" title="LinkedIn"><img className="icon" src={LinkedIn} alt="linekdin"/></a>
+                    <a href="https://www.linkedin.com/in/andrew-ni-7809b01a6/" target="_blank" rel="noreferrer" title="LinkedIn"><img className="icon" src={LinkedIn} alt="linkedin"/></a>
                     <a href={Resume} target="_blank" rel="noreferrer" title="Resume"><img className="icon" src={ResumeIcon} alt="resume"/></a>
                 </div>
             </div>
