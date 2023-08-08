@@ -19,13 +19,11 @@ function Projects() {
                         <a className="project-link" href="https://port-andrewni.vercel.app/" target="_blank" rel="noreferrer">port-andrewni.vercel.app</a>
                     </h3>
                     <p className="projects-description">
-                        • Developed a <b>web application</b> that allows a user to visualize an ethereum-based wallet's total ERC-20 token and NFT net worth
+                        • Architected a React.js-based web interface to elucidate an Ethereum wallet’s aggregate value, encompassing both ERC-20 assets and NFT holdings
                         <br />
-                        • Implemented <b>Ethers.js</b> to enable Metamask wallet connection and retrieval of a wallet's ethereum balance
+                        • Integrated Ethers.js protocols to facilitate seamless Metamask connections, ensuring precise retrieval of on-chain Ethereum balances
                         <br />
-                        • Fetched current ethereum price and a wallet's NFT data (assets owned, collections owned, price) by utilizing Coingecko and Opensea <b>API calls</b> with <b>Axios</b>
-                        <br />
-                        • Utilized <b>React.js</b> as the front-end framework of the application for enhanced performance and flexibility
+                        • Leveraged Coingecko and Opensea API integrations via Axios, ensuring real-time data acquisition for Ethereum valuation and comprehensive NFT asset analytics
                         <br />
                         <p className="projects-technologies">Axios | Ethers.js | React.js</p>
                         <a href="https://github.com/andrewni1/port" target="_blank" rel="noreferrer"><img className="experience-github" src={Github} alt="github"/></a>
@@ -41,13 +39,13 @@ function Projects() {
                         <a className="project-link" href="https://fibro.dev/" target="_blank" rel="noreferrer">fibro.dev</a>
                     </h3>
                     <p className="projects-description">
-                        • Developed a <b>full-stack web application</b> that allows authenticated users to record their product inventory with details such as product name, price, and group
+                        • Developed a full-stack web application, allowing authenticated users to catalog their product inventory, encompassing details like nomenclature, pricing, and categorization
                         <br />
-                        • Utilized <b>Next.js</b> to allow for enhanced user experience and application performance with Next.js's server-side rendering and static site generation
+                        • Leveraged Next.js, enhancing application performance through server-side rendering and static site generation
                         <br />
                         • Applied <b>Firebase Authentication</b> to allow users to create or sign into an authenticated account, providing privacy and security of information
                         <br />
-                        • Employed <b>Firebase Firestore</b> to create a database to handle and store user requests, allowing data to be displayed to authenticated users with every session
+                        • Integrated Firebase tools, utilizing Authentication for robust user sign-ins and Firestore as a database backend, managing product entries and ensuring consistent data presentation across user sessions
                         <br />
                         <p className="projects-technologies">Firebase | Next.js | Node.js</p>
                         <a href="https://github.com/andrewni1/fibro" target="_blank" rel="noreferrer"><img className="experience-github" src={Github} alt="github"/></a>
@@ -63,14 +61,11 @@ function Projects() {
                         <a className="project-link" href="https://github.com/andrewni1/product-monitor" target="_blank" rel="noreferrer">https://github.com/andrewni1/product-monitor</a>
                         </h3>
                     <p className="projects-description">
-                        • Developed an application with <b>Python</b> that monitors whether certain products are in stock or are restocking on BestBuy
-                        by scraping product details with the use of <b>Beautiful Soup</b>
+                        • Architected a Python-driven application, leveraging Beautiful Soup, to meticulously surveil inventory dynamics on BestBuy, enabling real-time insights into product availability and restocking events
                         <br />
-                        • Utilized <b>Discord.py</b> to send alerts to users of in-stock/restocking products through Discord webhooks
+                        • Seamlessly integrated Discord.py, transmitting timely and crucial inventory alerts to users via Discord webhooks, thus elevating user engagement and responsiveness
                         <br />
-                        • Monitor alerts display a product's name, link, SKU, price, and an `Add to cart` button to allow users to add the product straight to cart by utilizing BestBuy's <b>API</b> endpoint
-                        <br />
-                        • Products can be monitored by inputting the product link into the bestBuyLinks.txt file
+                        • Facilitated a user-centric monitoring experience by featuring pivotal product data such as name, link, SKU, and price, and by ingeniously integrating an 'Add to Cart' functionality using BestBuy's API, all powered by simply populating the bestBuyLinks.txt file
                         <br />
                         <p className="projects-technologies">Python | Discord.py</p>
                         <a href="https://github.com/andrewni1/product-monitor" target="_blank" rel="noreferrer"><img className="experience-github" src={Github} alt="github"/></a>
