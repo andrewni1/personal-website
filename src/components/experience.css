@@ -1,59 +1,141 @@
 .experience-container {
-    border-bottom: 2px solid #909090;
-    padding-top: 10px;
+  border-bottom: 1px solid var(--color-border);
+  padding: 80px 0;
+}
+
+.header {
+  color: var(--color-black);
+  font-size: clamp(32px, 5vw, 48px);
+  margin-bottom: 50px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
 }
 
 .content-container {
-    flex-direction: row;
-    display: flex;
-    margin-top: 20px;
+  display: flex;
+  gap: 24px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.content-container:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .experience-icon {
-    width: 70px;
-    height: 70px;
-    border: 8px solid white;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    border-radius: 20%;
-    margin-right: 15px;
+  width: 80px;
+  height: 80px;
+  min-width: 80px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.experience-icon:hover {
+  transform: translateY(-2px);
 }
 
 .experience-header {
-    flex-direction: column;
-    display: flex;
-    padding: 8px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .experience-role {
-    color: #909090;
-    margin: 0;
-    font-size: 16px;
+  color: var(--color-gray-light);
+  margin: 0;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .experience-org {
-    color: #383838;
-    margin: 0;
-    font-size: 26px;
+  color: var(--color-black);
+  margin: 8px 0 0 0;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
 }
 
 .experience-timeframe {
-    color: #5c5c5c;
-    margin: 0;
-    font-size: 16px;
+  color: var(--color-gray-light);
+  margin: 4px 0 16px 0;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .experience-description {
-    color: #5c5c5c;
-    font-weight: 500;
-    font-size: 18px;
+  color: var(--color-gray);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.experience-description b {
+  color: var(--color-black);
+  font-weight: 600;
 }
 
 .experience-technologies {
-    color: #909090;
-    font-size: 16px;
+  color: var(--color-gray-light);
+  font-size: 14px;
+  margin-top: 12px !important;
+  font-weight: 500;
 }
 
 .experience-github {
-    height: 30px;
-    margin-right: 10px;
+  height: 28px;
+  width: 28px;
+  margin-top: 12px;
+  margin-right: 10px;
+  transition: transform 0.2s ease;
+  filter: brightness(0.6);
+}
+
+.experience-github:hover {
+  transform: scale(1.1);
+  filter: brightness(0.2);
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+  .experience-container {
+    padding: 60px 0;
+  }
+
+  .header {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+
+  .content-container {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .experience-icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .experience-org {
+    font-size: 20px;
+  }
+
+  .experience-description {
+    font-size: 15px;
+  }
+}
+
+/* Tablet and up */
+@media only screen and (min-width: 601px) {
+  .content-container {
+    flex-direction: row;
+  }
 }

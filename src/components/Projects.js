@@ -19,11 +19,11 @@ function Projects() {
                         <a className="project-link" href="https://port-andrewni.vercel.app/" target="_blank" rel="noreferrer">port-andrewni.vercel.app</a>
                     </h3>
                     <p className="projects-description">
-                        • Architected a React.js-based web interface to elucidate an Ethereum wallet’s aggregate value, encompassing both ERC-20 assets and NFT holdings
+                        • Architected a <b>React.js-based web interface</b> to elucidate an <b>Ethereum wallet's</b> aggregate value, encompassing both <b>ERC-20 assets</b> and <b>NFT holdings</b>
                         <br />
-                        • Integrated Ethers.js protocols to facilitate seamless Metamask connections, ensuring precise retrieval of on-chain Ethereum balances
+                        • Integrated <b>Ethers.js</b> protocols to facilitate seamless <b>Metamask</b> connections, ensuring precise retrieval of <b>on-chain Ethereum balances</b>
                         <br />
-                        • Leveraged Coingecko and Opensea API integrations via Axios, ensuring real-time data acquisition for Ethereum valuation and comprehensive NFT asset analytics
+                        • Leveraged <b>Coingecko</b> and <b>Opensea API</b> integrations via <b>Axios</b>, ensuring real-time data acquisition for Ethereum valuation and comprehensive NFT asset analytics
                         <br />
                         <p className="projects-technologies">Axios | Ethers.js | React.js</p>
                         <a href="https://github.com/andrewni1/port" target="_blank" rel="noreferrer"><img className="experience-github" src={Github} alt="github"/></a>
@@ -31,7 +31,7 @@ function Projects() {
                     </p>
                 </div>
             </div>
-            <div className="content-two-container">
+            {/* <div className="content-two-container">
                 <img className="projects-icon" src={Fibro} alt="fibro"/>
                 <div className="projects-header">
                     <h2 className="projects-org">Fibro</h2>
@@ -39,20 +39,20 @@ function Projects() {
                         <a className="project-link" href="https://fibro.dev/" target="_blank" rel="noreferrer">fibro.dev</a>
                     </h3>
                     <p className="projects-description">
-                        • Developed a full-stack web application, allowing authenticated users to catalog their product inventory, encompassing details like nomenclature, pricing, and categorization
+                        • Developed a <b>full-stack web application</b>, allowing <b>authenticated users</b> to catalog their product inventory, encompassing details like nomenclature, pricing, and categorization
                         <br />
-                        • Leveraged Next.js, enhancing application performance through server-side rendering and static site generation
+                        • Leveraged <b>Next.js</b>, enhancing application performance through <b>server-side rendering</b> and <b>static site generation</b>
                         <br />
                         • Applied <b>Firebase Authentication</b> to allow users to create or sign into an authenticated account, providing privacy and security of information
                         <br />
-                        • Integrated Firebase tools, utilizing Authentication for robust user sign-ins and Firestore as a database backend, managing product entries and ensuring consistent data presentation across user sessions
+                        • Integrated <b>Firebase</b> tools, utilizing <b>Authentication</b> for robust user sign-ins and <b>Firestore</b> as a database backend, managing product entries and ensuring consistent data presentation across user sessions
                         <br />
                         <p className="projects-technologies">Firebase | Next.js | Node.js</p>
                         <a href="https://github.com/andrewni1/fibro" target="_blank" rel="noreferrer"><img className="experience-github" src={Github} alt="github"/></a>
                         <a href="https://fibro.dev/" target="_blank" rel="noreferrer"><img className="experience-github" src={ExternalLink} alt="external-link"/></a>
                     </p>
                 </div>
-            </div>
+            </div> */}
             <div className="content-two-container">
                 <img className="projects-icon" src={BestBuy} alt="bestbuy"/>
                 <div className="projects-header">
@@ -61,11 +61,11 @@ function Projects() {
                         <a className="project-link" href="https://github.com/andrewni1/product-monitor" target="_blank" rel="noreferrer">https://github.com/andrewni1/product-monitor</a>
                         </h3>
                     <p className="projects-description">
-                        • Architected a Python-driven application, leveraging Beautiful Soup, to meticulously surveil inventory dynamics on BestBuy, enabling real-time insights into product availability and restocking events
+                        • Architected a <b>Python-driven application</b>, leveraging <b>Beautiful Soup</b>, to meticulously surveil inventory dynamics on BestBuy, enabling real-time insights into product availability and restocking events
                         <br />
-                        • Seamlessly integrated Discord.py, transmitting timely and crucial inventory alerts to users via Discord webhooks, thus elevating user engagement and responsiveness
+                        • Seamlessly integrated <b>Discord.py</b>, transmitting timely and crucial inventory alerts to users via <b>Discord webhooks</b>, thus elevating user engagement and responsiveness
                         <br />
-                        • Facilitated a user-centric monitoring experience by featuring pivotal product data such as name, link, SKU, and price, and by ingeniously integrating an 'Add to Cart' functionality using BestBuy's API, all powered by simply populating the bestBuyLinks.txt file
+                        • Facilitated a user-centric monitoring experience by featuring pivotal product data such as name, link, SKU, and price, and by ingeniously integrating an '<b>Add to Cart</b>' functionality using <b>BestBuy's API</b>, all powered by simply populating the bestBuyLinks.txt file
                         <br />
                         <p className="projects-technologies">Python | Discord.py</p>
                         <a href="https://github.com/andrewni1/product-monitor" target="_blank" rel="noreferrer"><img className="experience-github" src={Github} alt="github"/></a>

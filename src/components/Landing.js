@@ -12,17 +12,25 @@ function Landing() {
         <div className='landing-container'>
             <div className="text-container">
                 <h4 className="intro">Hello, I'm</h4>
-                <h1 className="name">Andrew.</h1>
-                <h1 className="short-desc">Student and Developer at Purdue University.</h1>
+                <h1 className="name">Andrew Ni</h1>
+                <h2 className="short-desc">Software Engineer @ Walmart Global Tech</h2>
                 <div className="contact-icons">
-                    <a href="mailto:ni95@purdue.edu" target="_blank" rel="noreferrer" title="Email"><img className="icon" src={Email} alt="email"/></a>
-                    <a href="https://github.com/andrewni1" target="_blank" rel="noreferrer" title="GitHub"><img className="icon" src={Github} alt="github"/></a>
-                    <a href="https://www.linkedin.com/in/andrewni1/" target="_blank" rel="noreferrer" title="LinkedIn"><img className="icon" src={LinkedIn} alt="linkedin"/></a>
-                    <a href={Resume} target="_blank" rel="noreferrer" title="Resume"><img className="icon" src={ResumeIcon} alt="resume"/></a>
+                    <a href="mailto:ni95@purdue.edu" target="_blank" rel="noreferrer" title="Email" aria-label="Email">
+                        <img className="icon" src={Email} alt="email"/>
+                    </a>
+                    <a href="https://github.com/andrewni1" target="_blank" rel="noreferrer" title="GitHub" aria-label="GitHub">
+                        <img className="icon" src={Github} alt="github"/>
+                    </a>
+                    <a href="https://www.linkedin.com/in/andrewni1/" target="_blank" rel="noreferrer" title="LinkedIn" aria-label="LinkedIn">
+                        <img className="icon" src={LinkedIn} alt="linkedin"/>
+                    </a>
+                    <a href={Resume} target="_blank" rel="noreferrer" title="Resume" aria-label="Resume">
+                        <img className="icon" src={ResumeIcon} alt="resume"/>
+                    </a>
                 </div>
             </div>
             <div className='img-container'>
-                <img className="pic" src={MyPic} alt="pic"/>
+                <img className="pic" src={MyPic} alt="Profile"/>
             </div>
         </div>
     )
