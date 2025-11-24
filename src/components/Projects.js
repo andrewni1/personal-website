@@ -12,7 +12,9 @@ function Projects() {
         <div className="projects-container">
             <h1 className="header">Personal Projects</h1>
             <div className="content-container">
-                <img className="projects-icon" src={Port} alt="port"/>
+                <a href="https://github.com/andrewni1/port" target="_blank" rel="noreferrer" className="projects-icon-link" title="View on GitHub">
+                    <img className="projects-icon" src={Port} alt="port"/>
+                </a>
                 <div className="projects-header">
                     <h2 className="projects-org">Port</h2>
                     <h3 className="projects-link">
@@ -26,8 +28,6 @@ function Projects() {
                         • Leveraged <b>Coingecko</b> and <b>Opensea API</b> integrations via <b>Axios</b>, ensuring real-time data acquisition for Ethereum valuation and comprehensive NFT asset analytics
                         <br />
                         <p className="projects-technologies">Axios | Ethers.js | React.js</p>
-                        <a href="https://github.com/andrewni1/port" target="_blank" rel="noreferrer"><img className="experience-github" src={Github} alt="github"/></a>
-                        <a href="https://port-andrewni.vercel.app/" target="_blank" rel="noreferrer"><img className="experience-github" src={ExternalLink} alt="external-link"/></a>
                     </p>
                 </div>
             </div>
@@ -54,7 +54,9 @@ function Projects() {
                 </div>
             </div> */}
             <div className="content-two-container">
-                <img className="projects-icon" src={BestBuy} alt="bestbuy"/>
+                <a href="https://github.com/andrewni1/product-monitor" target="_blank" rel="noreferrer" className="projects-icon-link" title="View on GitHub">
+                    <img className="projects-icon" src={BestBuy} alt="bestbuy"/>
+                </a>
                 <div className="projects-header">
                     <h2 className="projects-org">BestBuy Product Monitor</h2>
                     <h3 className="projects-link">
@@ -68,12 +70,13 @@ function Projects() {
                         • Facilitated a user-centric monitoring experience by featuring pivotal product data such as name, link, SKU, and price, and by ingeniously integrating an '<b>Add to Cart</b>' functionality using <b>BestBuy's API</b>, all powered by simply populating the bestBuyLinks.txt file
                         <br />
                         <p className="projects-technologies">Python | Discord.py</p>
-                        <a href="https://github.com/andrewni1/product-monitor" target="_blank" rel="noreferrer"><img className="experience-github" src={Github} alt="github"/></a>
                     </p>
                 </div>
             </div>
             <div className="content-two-container">
-                <img className="projects-icon" src={ProjPic} alt="proj-pic"/>
+                <a href="https://github.com/andrewni1/personal-website" target="_blank" rel="noreferrer" className="projects-icon-link" title="View on GitHub">
+                    <img className="projects-icon" src={ProjPic} alt="proj-pic"/>
+                </a>
                 <div className="projects-header">
                     <h2 className="projects-org">Personal Website</h2>
                     <h3 className="projects-link">
@@ -85,8 +88,6 @@ function Projects() {
                         • Showcases my work experience and personal projects I have worked on
                         <br />
                         <p className="projects-technologies">React.js</p>
-                        <a href="https://github.com/andrewni1/personal-website" target="_blank" rel="noreferrer"><img className="experience-github" src={Github} alt="github"/></a>
-                        <a href="https://andrewni.com/" target="_blank" rel="noreferrer"><img className="experience-github" src={ExternalLink} alt="external-link"/></a>
                     </p>
                 </div>
             </div>

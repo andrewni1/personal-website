@@ -1,7 +1,5 @@
-import React from 'react'
 import HTF from '../pictures/hackthefuture.png'
 import Estack from '../pictures/estack.png'
-import Github from '../pictures/github.png'
 import Walmart from '../pictures/walmart-global-tech-logo.jpg'
 import './experience.css'
 
@@ -47,7 +45,9 @@ function Experience() {
             </div>
 
             <div className="content-container">
-                <img className="experience-icon" src={Estack} alt="Estack"/>
+                <a href="https://github.com/Estack-industries/estack-app" target="_blank" rel="noreferrer" className="experience-icon-link" title="View on GitHub">
+                    <img className="experience-icon" src={Estack} alt="Estack"/>
+                </a>
                 <div className="experience-header">
                     <p className="experience-role">Software Engineer Intern</p>
                     <h2 className="experience-org">Estack</h2>
@@ -61,14 +61,13 @@ function Experience() {
                         <br />
                     </p>
                     <p className="experience-technologies">MySQL • Node.js • React.js</p>
-                    <a href="https://github.com/Estack-industries/estack-app" target="_blank" rel="noreferrer" aria-label="GitHub Repository">
-                        <img className="experience-github" src={Github} alt="github"/>
-                    </a>
                 </div>
             </div>
 
             <div className="content-container">
-                <img className="experience-icon" src={HTF} alt="Hack The Future"/>
+                <a href="https://github.com/Hack-the-Future/jessies-kids-foundation" target="_blank" rel="noreferrer" className="experience-icon-link" title="View on GitHub">
+                    <img className="experience-icon" src={HTF} alt="Hack The Future"/>
+                </a>
                 <div className="experience-header">
                     <p className="experience-role">Frontend Developer</p>
                     <h2 className="experience-org">Purdue Hack The Future</h2>
@@ -82,9 +81,6 @@ function Experience() {
                         <br />
                     </p>
                     <p className="experience-technologies">JavaScript • EJS • Materialize</p>
-                    <a href="https://github.com/Hack-the-Future/jessies-kids-foundation" target="_blank" rel="noreferrer" aria-label="GitHub Repository">
-                        <img className="experience-github" src={Github} alt="github"/>
-                    </a>
                 </div>
             </div>
         </div>

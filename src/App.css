@@ -10,64 +10,64 @@
 /* Mobile: Extra small devices */
 @media only screen and (max-width: 600px) {
   .App {
-    margin-left: 6%;
-    margin-right: 6%;
+    margin-left: 4%;
+    margin-right: 4%;
   }
 
   .landing-page {
-    margin-left: 6%;
-    margin-right: 6%;
+    margin-left: 4%;
+    margin-right: 4%;
   }
 }
 
 /* Small devices */
 @media only screen and (min-width: 601px) and (max-width: 768px) {
   .App {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 6%;
+    margin-right: 6%;
   }
 
   .landing-page {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 6%;
+    margin-right: 6%;
   }
 }
 
 /* Medium devices */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .App {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   .landing-page {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 }
 
 /* Large devices */
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
   .App {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 12%;
+    margin-right: 12%;
   }
 
   .landing-page {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 12%;
+    margin-right: 12%;
   }
 }
 
 /* Extra large devices */
 @media only screen and (min-width: 1441px) {
   .App {
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 15%;
+    margin-right: 15%;
   }
 
   .landing-page {
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 15%;
+    margin-right: 15%;
   }
 }
