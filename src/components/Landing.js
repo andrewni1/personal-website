@@ -3,7 +3,7 @@ import Email from '../pictures/email.png'
 import Github from '../pictures/github.png'
 import LinkedIn from '../pictures/linkedin.png'
 import ResumeIcon from '../pictures/resumeIcon.png'
-import Resume from '../documents/Andrew_Ni_Resume.pdf'
+import Resume from '../documents/AndrewNiResume.pdf'
 import MyPic from '../pictures/myPic.png'
 import './landing.css'
 
@@ -15,7 +15,7 @@ function Landing() {
                 <h1 className="name">Andrew Ni</h1>
                 <h2 className="short-desc">Software Engineer @ Walmart Global Tech</h2>
                 <div className="contact-icons">
-                    <a href="mailto:ni95@purdue.edu" target="_blank" rel="noreferrer" title="Email" aria-label="Email">
+                    <a href="mailto:niandrew1@gmail.com" target="_blank" rel="noreferrer" title="Email" aria-label="Email">
                         <img className="icon" src={Email} alt="email"/>
                     </a>
                     <a href="https://github.com/andrewni1" target="_blank" rel="noreferrer" title="GitHub" aria-label="GitHub">
