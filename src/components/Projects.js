@@ -10,7 +10,7 @@ import './projects.css'
 function Projects() {
     return (
         <div className="projects-container">
-            <h1 className="header">Personal Projects</h1>
+            <h1 className="header">Projects</h1>
             <div className="content-container">
                 <a href="https://github.com/andrewni1/port" target="_blank" rel="noreferrer" className="projects-icon-link" title="View on GitHub">
                     <img className="projects-icon" src={Port} alt="port"/>

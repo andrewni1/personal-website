@@ -15,7 +15,7 @@ function Experience() {
                     <p className="experience-timeframe">July 2024 — Present</p>
                     <ul className="experience-description">
                         <li>Built <b>ELM 2.0</b> (<b>Enterprise Location Master</b>) from the ground up: an internal tool for creating and modifying Walmart locations that processes 200+ location change requests per month.</li>
-                        <li>Maintained <b>SDL</b> (<b>Store Directory Lookup</b>), a high-traffic internal app with 5,000+ daily visits that provides a quick and detailed view of store data across 40+ regions, and added new attributes for initiatives such as <b>EV charging</b> and <b>preferred manager name</b>.</li>
+                        <li>Maintained <b>SDL</b> (<b>Store Directory Lookup</b>), a high-traffic internal app with 5,000+ daily visits that provides a quick and detailed view of store data across 40+ regions, and additionally added attributes for multiple new initiatives.</li>
                         <li>Integrated <b>Automated CRQ</b> (<b>Change Request</b>) across 2+ applications, cutting production change lead time by ~80% through automated pipelines, approvals, and quality-control gates.</li>
                         <li>Implemented new <b>Sensory Friendly Hours</b> fields in <b>Location Hours Manager</b> to support modification and addition of sensory friendly shopping hours across all U.S. stores.</li>
                         <li>Expanded the <b>DC alignment tool</b> to international markets such as <b>Canada (CA)</b> and <b>Mexico (MX)</b>, aligning distribution centers with stores to improve supply chain management.</li>
@@ -57,6 +57,8 @@ function Experience() {
                         <br />
                         • Architected a <b>user-centric frontend</b> supporting <b>5,000+ daily active users</b>
                         <br />
+                        • Created robust <b>RESTful API endpoints</b> to handle complex search queries and property filtering, enhancing the discovery experience for users
+                        <br />
                         • Optimized <b>MySQL database</b> to securely store 25K+ user profiles and process 150K+ monthly engagement data points
                         <br />
                     </p>
@@ -76,6 +78,8 @@ function Experience() {
                         • Engineered a robust <b>full-stack web solution</b> for <b>Jessie's Kids Foundation</b>, streamlining 50+ monthly funding requests
                         <br />
                         • Built <b>responsive frontend</b> using <b>JavaScript</b> and <b>EJS</b>, handling <b>150+ daily users</b> across login, submissions, and recovery pages
+                        <br />
+                        • Developed a secure <b>admin dashboard</b> enabling board members to efficiently review and adjudicate funding applications, replacing manual email workflows
                         <br />
                         • Enhanced UX with <b>Materialize</b>, achieving <b>30% faster load times</b> and responsive design
                         <br />
